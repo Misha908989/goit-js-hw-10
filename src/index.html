@@ -4,20 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Homework 10 - JavaScript</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <div class="container">
+        <section class="vite-promo">
+          <div class="vite-promo-thumb">
+            <h1 class="main-title">
+              Homework <span class="main-title-gradient">#10</span>
+            </h1>
+          </div>
+        </section>
+        
+        <div class="tasks-list">
+          <h2>Tasks:</h2>
+          <ul class="badges-list">
+            <li>
+              <a class="badges-link" href="./1-timer.html">Task 1 - Timer</a>
+            </li>
+            <li>
+              <a class="badges-link" href="./2-snackbar.html">Task 2 - Snackbar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
   </body>
 </html>
